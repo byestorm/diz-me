@@ -1,0 +1,2 @@
+botasaurus==4.0.76
+lxml==5.3.0
