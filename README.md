@@ -14,7 +14,7 @@ O **Diz-Me** é uma ferramenta de CLI que permite procurar definições de palav
 
 ## 🛠 Uso
 
-### 📌 Exibir ajuda
+### 📌 Exibir o painel de ajuda
 
 ```bash
 python diz-me.py ajuda
