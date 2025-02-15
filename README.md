@@ -1,7 +1,5 @@
 # 📖 Diz-Me
 
----
-
 ## 🛠 Tech Stack
 
 - **Botasaurus** → Para realizar calls ao site da Infopédia
