@@ -12,7 +12,7 @@ def scrape_infopedia(request: Request, data):
     response = request.get(url)
     
     if response.status_code != 200:
-        return {"word": word, "error": "Erro ao acessar o site. Verifique sua conexão ou tente novamente mais tarde."}
+        return {"word": word, "error": "Erro ao acessar o site. Verifica a tua conexão ou tenta novamente mais tarde."}
     
     tree = html.fromstring(response.content)
     
@@ -45,7 +45,7 @@ def main():
     if args.command == "ajuda":
         print("""
 ========================================================================================================================
-Dicionário CLI Diz-Me
+Diz-Me
 ========================================================================================================================
 python diz-me.py ajuda -> devolve esta lista de comandos
 python diz-me.py porfavor <palavra1> <palavra2> ... -> devolve os conjuntos de dados associados às palavras na Infopédia
@@ -65,7 +65,7 @@ python diz-me.py porfavor <palavra1> <palavra2> ... -> devolve os conjuntos de d
                     print(f"- {definition}")
             print("========================================================================================================================\n")
     else:
-        print("Comando inválido. Use 'python diz-me.py ajuda' para ver os comandos disponíveis.")
+        print("Comando inválido. Usa 'python diz-me.py ajuda' para ver os comandos disponíveis.")
       
     remove_pycache()
 
