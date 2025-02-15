@@ -6,8 +6,6 @@
 - **LXML** → Para fazer parsing do HTML e extrair os dados
 - **Argparse** → Para receber os argumentos no terminal
 
----
-
 ## 🛠 Uso
 
 ### 📌 Exibir o painel de ajuda
